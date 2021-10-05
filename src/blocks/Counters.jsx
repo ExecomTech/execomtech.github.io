@@ -1,14 +1,13 @@
-import React from 'react'
-import TeamOne from "./team/TeamOne";
-import PageHelmet from "../component/common/Helmet";
-import Breadcrumb from "../elements/common/Breadcrumb";
-import ScrollToTop from 'react-scroll-up';
+import React from 'react';
 import { FiChevronUp } from "react-icons/fi";
+import ScrollToTop from 'react-scroll-up';
+import PageHelmet from "../component/common/Helmet";
+import Footer from "../component/footer/Footer";
 import Header from "../component/header/Header";
+import Breadcrumb from "../elements/common/Breadcrumb";
 import CounterOne from "../elements/counters/CounterOne";
 import CounterTwo from "../elements/counters/CounterTwo";
 
-import Footer from "../component/footer/Footer";
 
 const Counters = () => {
     return (

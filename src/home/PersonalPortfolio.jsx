@@ -1,14 +1,13 @@
-import React, { Component , Fragment } from "react";
-import ScrollToTop from 'react-scroll-up';
-import {Link} from "react-router-dom";
+import React, { Component, Fragment } from "react";
 import { FiChevronUp } from "react-icons/fi";
+import ScrollToTop from 'react-scroll-up';
+import Helmet from "../component/common/Helmet";
+import FooterTwo from "../component/footer/FooterTwo";
 import HeaderTwo from "../component/header/HeaderTwo";
-import FooterTwo from "../component/footer/FooterTwo"
 import Brand from "../elements/Brand";
+import ContactOne from "../elements/contact/ContactOne";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import TabTwo from "../elements/tab/TabTwo";
-import ContactOne from "../elements/contact/ContactOne";
-import Helmet from "../component/common/Helmet";
 
 const SlideList = [
     {

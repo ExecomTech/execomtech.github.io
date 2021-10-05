@@ -1,13 +1,11 @@
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
-import Helmet from "../component/common/Helmet";
+import { FiCast, FiChevronUp, FiLayers, FiMonitor, FiUsers } from "react-icons/fi";
 import ScrollToTop from 'react-scroll-up';
-import Slider from "react-slick";
-import { slideSlick } from "../page-demo/script";
-import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
 import VideoModal from "../blocks/VideoModal";
+import Helmet from "../component/common/Helmet";
+import FooterTwo from "../component/footer/FooterTwo";
+import Header from "../component/header/Header";
 import BrandTwo from "../elements/BrandTwo";
 
 

@@ -1,14 +1,14 @@
-import React, { Component , Fragment } from "react";
-import Scrollspy from 'react-scrollspy';
+import React, { Component, Fragment } from "react";
+import { FiChevronUp, FiMenu, FiX } from "react-icons/fi";
 import ScrollToTop from 'react-scroll-up';
-import { FiChevronUp , FiX , FiMenu } from "react-icons/fi";
+import Scrollspy from 'react-scrollspy';
+import Slider from "react-slick";
+import TeamOne from "../blocks/team/TeamOne";
+import Helmet from "../component/common/Helmet";
+import FooterTwo from "../component/footer/FooterTwo";
 import CounterOne from "../elements/counters/CounterTwo";
 import Testimonial from "../elements/Testimonial";
-import FooterTwo from "../component/footer/FooterTwo";
-import Helmet from "../component/common/Helmet";
-import TeamOne from "../blocks/team/TeamOne";
-import Slider from "react-slick";
-import { slickDot , portfolioSlick2 } from "../page-demo/script";
+import { portfolioSlick2 } from "../page-demo/script";
 
 
 const SlideList = [
