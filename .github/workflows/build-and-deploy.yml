@@ -12,20 +12,14 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
 
-      - name: Setup Node.js ⌛️
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-          cache: 'npm'
-
-      - name: Install 🌎
-        run: npm install
-
-      - name: Build 🔧
-        run: npm run build --prod
+      - name: Install and Build 🔧
+        run: |
+          npm install
+          npm run-script build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
-          branch: gh-pages
-          folder: build
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
