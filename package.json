@@ -2,7 +2,7 @@
   "name": "ExecomTech",
   "version": "0.1.0",
   "private": true,
-  "homepage": "www.execomtech.com",
+  "homepage": "http://www.execomtech.com/",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
