@@ -21,7 +21,7 @@ jobs:
       - name: Install 🌎
         run: npm install
 
-      - name: Install and Build 🔧
+      - name: Build 🔧
         run: npm run build --prod
 
       - name: Deploy 🚀
