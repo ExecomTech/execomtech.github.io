@@ -51,7 +51,7 @@ class Startup extends Component{
         const PostList = BlogContent.slice(0 , 3);
         return(
             <Fragment> 
-                <Helmet pageTitle="Startup" />
+                <Helmet pageTitle="" />
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Slider Area   */}
