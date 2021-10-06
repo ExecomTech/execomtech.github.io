@@ -322,6 +322,9 @@
 
 .header-area {
     .header-wrapper {
+        .logo {
+            width: 200px;
+        }
         .mainmenunav {
             @media #{$md-layout} {
                 position: absolute;
