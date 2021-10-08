@@ -2,6 +2,16 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 
 
+const logoImageMap = {
+    'light': <img src="/assets/images/logo/logo-light.png" alt="ExecomTech" />,
+    'dark': <img src="/assets/images/logo/logo-dark.png" alt="ExecomTech" />,
+    'gradient': <img src="/assets/images/logo/logo-gradient.png" alt="ExecomTech" />,
+    'symbol-dark' : <img src="/assets/images/logo/logo-symbol-dark.png" alt="ExecomTech" />,
+    'symbol-light': <img src="/assets/images/logo/logo-symbol-light.png" alt="ExecomTech" />,
+    'symbol-gradient': <img src="/assets/images/logo/logo-symbol-gradient.png" alt="ExecomTech" />,
+    'default': <img src="/assets/images/logo/logo.png" alt="ExecomTech" />
+}
+
 class Header extends Component{
     constructor(props) {
         super(props);
@@ -33,21 +43,9 @@ class Header extends Component{
                 }
             }
         }
-        const { logo, color='default-color' } = this.props;
-        let logoUrl;
-        if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
-        }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
-        }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
-        }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
-        }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
-        }
+        const { logo='default', color='default-color' } = this.props;
+        const logoUrl = logoImageMap[logo];
 
-        
         return(
             <header className={`header-area formobile-menu header--transparent ${color}`}>
                 <div className="header-wrapper" id="header-wrapper">

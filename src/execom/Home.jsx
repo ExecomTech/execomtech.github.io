@@ -29,7 +29,8 @@ class Home extends Component{
         return(
             <Fragment> 
                 <Helmet pageTitle="" />
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
+
+                <Header logo="gradient" />
 
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">
