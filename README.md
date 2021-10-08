@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+1. Checkout this project
+2. Goto project root directory
+3. Run `npm install`
+4. Run `npm run start`
+5. Once work is complete, commit changes to master branch (`git commit -ma "your change description"`)
+
 ## Available Scripts
 
 In the project directory, you can run:
