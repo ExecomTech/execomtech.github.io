@@ -9,7 +9,7 @@ const ServiceList = [
     },
     {
         icon: <FiMonitor />,
-        title: 'Website Design and Development',
+        title: 'Web Design and Development',
         description: 'Web solution to cater all your business needs with responsiveness, user experience, functionality, innovation, performance and quality in mind.'
     },
     {

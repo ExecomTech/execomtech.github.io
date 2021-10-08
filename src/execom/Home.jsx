@@ -7,7 +7,7 @@ import { slideSlick } from "../page-demo/script";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 import Service from "./components/Service";
 
 
@@ -72,13 +72,14 @@ class Home extends Component{
                 </div>
                 {/* End Service Area */}
 
-                {/* Start Portfolio Area */}
-                <div className="portfolio-area ptb--120 bg_color--1">
-                    <div className="portfolio-sacousel-inner mb--55">
-                        <Portfolio />
+                {/* Start Designer Portfolio  */}
+                <div className="designer-portfolio-area ptb--120 bg_color--1">
+                    <div className="wrapper plr--70 plr_sm--30 plr_md--30">
+                        <Projects column="col-lg-4 col-md-6 col-sm-6 col-12" />
                     </div>
                 </div>
-                {/* End Portfolio Area */}
+                {/* End Designer Portfolio  */}
+
 
                 {/* Start Back To Top */}
                  <div className="backto-top">
