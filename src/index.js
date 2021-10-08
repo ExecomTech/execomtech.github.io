@@ -25,7 +25,7 @@ import PortfolioDetails from "./elements/PortfolioDetails";
 // Element Layout
 import Service from "./elements/Service";
 import ServiceDetails from "./elements/ServiceDetails";
-import Startup from './home/Startup';
+import Home from './execom/Home';
 // Create Import File
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
@@ -36,7 +36,7 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Startup}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
 
                         {/* Element Layot */}
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
