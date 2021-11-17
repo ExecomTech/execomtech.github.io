@@ -35,7 +35,7 @@ class Footer extends Component{
                                                 <h4>Say Hello</h4>
                                                 <ul className="ft-link">
                                                     <li><a href="mailto:dinith@execomtech.com">dinith@execomtech.com</a></li>
-                                                    <li><a href="mailto:akila@execomtech.com">akila@example.com</a></li>
+                                                    <li><a href="mailto:akila@execomtech.com">akila@execomtech.com</a></li>
                                                 </ul>
 
                                                 <div className="social-share-inner">
